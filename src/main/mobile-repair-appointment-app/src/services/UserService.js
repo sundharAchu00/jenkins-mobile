@@ -12,5 +12,5 @@ class UserService extends Component {
     return axios.get(USER_URL + id);
   }
 }
-const UserService = new UserService();
-export default ;
+const userService = new UserService();
+export default userService;
