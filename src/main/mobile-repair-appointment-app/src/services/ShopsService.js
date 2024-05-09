@@ -20,6 +20,6 @@ class ShopsService extends Component {
   }
 }
 
-const ShopsService = new ShopsService();
+const shopsService = new ShopsService();
 
-export default ShopsService;
+export default shopsService;
